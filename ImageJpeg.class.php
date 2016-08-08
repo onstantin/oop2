@@ -39,9 +39,5 @@ class ImageJpeg extends Note implements feedable
     public function feed_item()
 	{
 		return "<p>".$this->load()."</p>";
-	}	
-	
-	
-	
-
+	}
 }
